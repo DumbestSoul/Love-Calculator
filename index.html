@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200&display=swap" rel="stylesheet">
+    <title>Love Calculator</title>
+</head>
+<body>
+    <h1>Your own Love Calculator</h1>
+    <div class="head-note">
+        <img src="img/heart.png" alt="heart-pic" class="heart-icon">
+        Enter your name and your partner's name, and see how much love is there in between you.
+        <img src="img/heart.png" alt="heart-pic" class="heart-icon">
+    </div>
+    <div class="flex-container">
+        <div class="input-form">
+           <span class="lbl">Your name : </span><input type="text" class="inp"><br>
+           <span class="lbl">Partner's name : </span><input type="text" class="inp" style="width : 450px"><br>
+           <input type="button" value="Calculate" class="inp-btn" onclick="cal()">
+        </div>
+        <div class="result">
+            <h2>0%</h2>
+        </div>
+    </div>
+    <p>
+        <div class="head-note" id="msg">This is just for fun project. Don't take this seriously.</div>
+    </p>
+    <script src="script/func.js">
+        //this does not contain any code as its been shipped to other file.
+    </script>
+</body>
+</html>
